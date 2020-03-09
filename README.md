@@ -7,3 +7,5 @@
 #### Camera Models: 
 ##### Sony NEX-7, Motorola Moto X, Motorola Nexus6, Motorola DROID MAXX, LG Nexus 5x, Apple iPhone 6, Apple iPhone 4s, HTC One M7, Samsung Galaxy S4, Samsung Galaxy Note 3
 ##### Test images were captured with the same 10 camera models, but with a second device 
+
+<img src="exif_plot_1.jpg" alt = "This plot shows the EXIF offset numbers by camera" title="EXIF Offset Images By Camera Model" />
