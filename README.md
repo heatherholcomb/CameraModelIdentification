@@ -25,7 +25,37 @@
 <img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/Samsung-Galaxy-S4_noise.png" alt="Samsung Galaxy S4" title="Samsung Galaxy S4 Noise Image" />
 <img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/Sony-NEX-7_noise.png" alt="Sony NEX 7" title="Sony NEX 7 Noise Image" />
 
+
 ##### Ultimately i ended up using RGB values to build the models. I trained 3 different models. Logistic model, KNN and Decision Tree. Below is the performance of each one of those models 
 
-<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/Motorola-Nexus-6_noise.png" alt="Motorola Nexus 6" title="Motorola Nexus 6 Noise Image" />
+##### Below are some RGB image samples 
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/rgb_1.png" alt="RGB" title="RGB" />
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/rgb_3.png" alt="RGB" title="RGB" />
 
+#### Logistic Regression Stats 
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/logistic_1.png" alt="Logistic Model" title="Logistic Model" />
+
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/logistic_2.png" alt="Logistic Model" title="Logistic Model" />
+
+## KNN Stats 
+
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/Knn_1.png" alt="KNN Model" title="KNN Model" />
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/Knn_2.png" alt="KNN Model" title="KNN Model" />
+
+## Decision Tree 
+
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/dt_1.png" alt="Decision Treee Model" title="Decision Tree Model" />
+
+#### A comparison of the three models' accuracy scores shows that the logistic model performed the best with the decision tree model second in line 
+
+<img src="https://github.com/heatherholcomb/CameraModelIdentification/blob/master/ModelComparison.png" alt="Model Comparison" title="Model Comparison" />
+
+## References 
+
+#### https://machinelearningmastery.com/how-to-load-large-datasets-from-directories-for-deep-learning-with-keras/
+#### https://www.geeksforgeeks.org/iterate-over-a-list-in-python/
+#### ://towardsdatascience.com/image-data-analysis-using-python-edddfdf128f4
+#### https://docs.opencv.org/3.4/dc/dbb/tutorial_py_calibration.html
+#### https://medium.com/analytics-vidhya/camera-calibration-with-opencv-f324679c6eb7
+#### https://github.com/RenatoBMLR/Camera-Model-Identification/blob/master/camera-model-identification.ipynb
+#### https://www.kaggle.com/c/sp-society-camera-model-identification/data
